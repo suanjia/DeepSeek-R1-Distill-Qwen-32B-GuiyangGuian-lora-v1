@@ -1,4 +1,4 @@
-DeepSeek-R1-Distill-Qwen-32B-lora 基于贵州的数据集经过lora，微调DeepSeek-R1-Distill-Qwen-32B
+本项目式DeepSeek-R1-Distill-Qwen-32B-lora 基于贵州的数据集经过lora，微调DeepSeek-R1-Distill-Qwen-32B
 
 一、模型下载地址 
 

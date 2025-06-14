@@ -16,12 +16,27 @@ Adapter 结构：在 Q-Attention、Q-FFN 等关键层插入低秩矩阵（rank=8
 一、模型下载地址 
 
 huggingface：
- https://huggingface.co/suanjiayun/DeepSeek-R1-Distill-Qwen-32B-lora/
+https://huggingface.co/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1/
 
 modelscope： 
 https://www.modelscope.cn/models/suanjia/DeepSeek-R1-Distill-Qwen-32B/
 
-二、页面
+二、模型使用
+
+1.使用
+DeepSeek-R1-Distill 模型可以像使用 Qwen 或 Llama 模型一样使用。
+
+例如，您可以使用 vLLM 轻松启动服务：
+
+VLLM_USE_MODELSCOPE=true vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --tensor-parallel-size 2 --max-model-len 32768 --enforce-eager
+您也可以使用 SGLang 轻松启动服务：
+
+SGLANG_USE_MODELSCOPE=true python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --trust-remote-code --tp 2
+
+参考官方文档 https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+
+
+2.页面
 
  项目提供了一个简单的页面，运行webui.py即可 streamlit run webui.py --server.address 0.0.0.0 --server.port 8080
 

@@ -31,10 +31,12 @@ v1模型下载
 
 ```
 #huggingface：
-https://huggingface.co/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1```
+
+https://huggingface.co/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1
 ```
 ```
-#modelscope： 
+#modelscope：
+
 https://www.modelscope.cn/models/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1
 ```
 
@@ -43,11 +45,13 @@ v1.5模型下载
 
 ```
 #huggingface:
+
 https://huggingface.co/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1.5
 ```
 
 ```
 #modelscope:
+
 https://www.modelscope.cn/models/suanjia/DeepSeek-R1-Distill-Qwen-32B-GuiyangGuian-lora-v1.5
 ```
 

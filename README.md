@@ -75,10 +75,6 @@ DeepSeek-R1-Distill 模型可以像使用 Qwen 或 Llama 模型一样使用。
 参考官方文档 https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
 
 
-2.页面
-
- 项目提供了一个简单的页面，运行webui.py即可 streamlit run webui.py --server.address 0.0.0.0 --server.port 8080
-
 五、模型快速体验
 
 可前往算家云快速体验：https://suanjiayun.com/
